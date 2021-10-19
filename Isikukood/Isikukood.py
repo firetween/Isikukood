@@ -3,7 +3,7 @@ ikoodid=list()
 arvud=list()
 print('Isikukoodi analüüz: '.center(50,'_'))
 #while len(ik)!=11 or ik.isdigit()!=True or int(list(ik)[0]) not in [1,2,3,4,5,6,7] or int(list(ik)[3]+list(ik)[4])<=0 or int(list(ik)[3]+list(ik)[4])>13:
-#    pass
+#    pass test
 while len(ik)!=11 or ik.isdigit()!=True:
     try:
         ik=input('Isikukood: ')
