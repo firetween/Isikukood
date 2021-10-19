@@ -40,8 +40,9 @@ sum=0
 for i in range(1,11):
     print(i)
     if i<10:
-        i=1
-    sum+=i*int(ik_list[i-1])
+        sum+=i*int(ik_list[i-1])
+    else:
+        sum+=(i-9)*int(ik_list[i-1])
 print('Sum = ',sum)
 jaak=sum//11
 print('jaak1: ', jaak)
@@ -64,4 +65,5 @@ else:
     print('Isikukood on vale')
 
 
+#MarinaOleinik/Isikukood
 
